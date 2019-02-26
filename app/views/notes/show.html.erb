@@ -1,8 +1,18 @@
-<%= @note.title %>
-<br />
-<%= @note.author %>
+<div id='note'>
 
+<div id='title'>
+<%= @note.title %>
+</div>
+
+<!--<div id='author'>
+<%= @note.author  %>
+</div>-->
+
+<div id='body'>
 <%= @note.body %>
-<br />
+</div>
+
+</div>
+
 
 <%= link_to 'Back', notes_path %>
