@@ -1,17 +1,25 @@
 <h1>My Notes</h1>
 
-<div id="noteslist">
+
 
 <% @notes.each do |note| %>
-  <div id='notename'>
-  <%= note.title %>
-  </div>
+  <div class='card' style='width: 320px;'>
+  <h5><%= note.title %></h5>
+  
+  <hr class="my-4">
 
-  <div id='links'>
+  <ul class='list-group list-group-horizontal'>
+
+  <li class='list-group-item'>
     <%= link_to 'Show', note_path(note) %>
+  </li>
+  <li class='list-group-item'>
     <%= link_to 'Edit', edit_note_path(note) %>
+  </li>
+  <li class='list-group-item'>
     <%= link_to 'Delete', note, method: :delete %>
-</div>
+  </li>
+  </ul>
 <% end %>
 
 </div>
