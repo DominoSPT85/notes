@@ -2,8 +2,6 @@
 
 <h1>My Notes App</h1>
 
-<p>You are on the homepage in my Notes app.</p>
-
 <p>This was a class project, to practice Ruby on Rails. Some highlights: </p>
 
 <ul>
