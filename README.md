@@ -1,5 +1,3 @@
-# Notes
-
 <h1>My Notes App</h1>
 
 <p>This was a class project, to practice Ruby on Rails. Some highlights: </p>
